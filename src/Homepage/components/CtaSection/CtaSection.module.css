@@ -1,0 +1,51 @@
+.cta-section{
+    display: flex;
+    width: 70%;
+    margin: 3rem auto;
+}
+
+.cta-image{
+    display: inline-block;
+    width: 700px;
+}
+
+.cta-image img{
+    display: inline-block;
+    width: 100%;
+}
+
+.cta-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    width: 60%;
+}
+
+.cta-button__call{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    align-items: center;
+    
+}
+
+.cta-head h1{
+    margin-bottom: 20px;
+}
+
+.cta-button__call button{
+    margin-top: 50px;
+    border: 0;
+    background-color: blue;
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    font-weight: 200;
+}
+
+.cta-button__call a{
+    margin-top: 10px;
+    color: rgb(0, 17, 255);
+}

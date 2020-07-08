@@ -1,0 +1,55 @@
+.url-action{
+    background-color: rgb(3, 3, 65);
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.url-action-initialise{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center ;
+}
+
+.url-action-initialise input{
+    padding:  1.1rem 2rem;
+    width: 70%;
+    display: inline-block;
+    font-size: 1.2rem;
+    margin-right: 1.5rem;
+    border-radius: 8px;
+    border: none;
+}
+
+.url-action-initialise button{
+    padding: 0.5rem 2rem;
+    font-size: 1.2rem;
+    background-color: rgb(46, 46, 231);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.url-actoin__policies{
+    color: rgb(202, 205, 221);
+    margin-top: 1rem;
+}
+
+.url-actoin__policies u {
+    text-decoration: underline;
+}
+
+.scroll-for-more{
+    margin: 0.5rem 0;
+    text-align: center;
+}
+.scroll-for-more p{
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: rgb(88, 88, 88);
+}
+

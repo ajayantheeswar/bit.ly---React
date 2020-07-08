@@ -1,0 +1,112 @@
+.Ad-primary-Section-1{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+
+.Ad-primary-Section-1 h1 {
+  font-size: 2.5rem;
+}
+
+
+.Ad-primary-Section-1 p {
+    margin: 0.8rem 0;
+    font-size: 1.3rem;
+    font-weight: 200;
+}
+
+.Ad-primary-Section-2{
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+    margin-top: 4rem;
+    
+}
+
+
+.ad-item{
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    margin: 1rem 1.5rem;
+}
+
+.ad-item img {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.ad-item h3 {
+    margin-bottom: 1rem;
+}
+
+.ad-item p{
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.section-cta{
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-cta button {
+    background-color: rgba(0, 110, 255, 0.103);
+    color: rgba(0, 110, 255);
+    border: none;
+    padding: 1.3rem 2.5rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.section-cta a{
+    color: rgba(0, 110, 255, 0.472);
+}
+
+.section-brands{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.brand-list{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.brand-list img{
+    margin: 1rem;
+}
+
+.section-cta-secondary{
+    margin: 2rem 0;
+    background-color: rgb(0, 0, 126);
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-cta-secondary h1{
+    color: white;
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.section-cta-secondary button {
+    font-size: 1.2rem;
+    padding: 1rem 1.8rem;
+    color: white;
+    background-color: rgb(0, 98, 255);
+    border: none;
+    border-radius: 8px;
+}
