@@ -23,3 +23,9 @@
     position: absolute;
     bottom:-310px;
 }
+
+@media(max-width : 1040px){
+    .navigation-list-container{
+        display: none;
+    }
+}

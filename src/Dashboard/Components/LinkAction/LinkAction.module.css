@@ -1,0 +1,38 @@
+.selector-container{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    width:150px;
+    
+    background-color: orangered ;
+    border-radius:5px;
+    margin: 0 1rem;
+       
+}
+
+
+.selector-actions{
+    display: flex;
+    padding: 0.5rem 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.selector-actions p{
+    color: white;
+}
+
+.selector-actions img {
+    display: inline-block;
+    width: 20px;
+    fill: white;
+}
+
+@media(max-width:700px){
+    .selector-container{
+        position: static;
+    }
+}

@@ -1,0 +1,23 @@
+.LinkList{
+    display :flex;
+    flex-direction: column;
+    background-color: #f5f6f7;
+    align-self: stretch;
+    width: 30%;
+}
+
+.LinkList hr{
+    height: 1px;
+    background-color:#828387 ;
+}
+
+.list-info{
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    color: #828387;
+}
+
+.list-info p {
+    font-size: 0.8rem;
+}

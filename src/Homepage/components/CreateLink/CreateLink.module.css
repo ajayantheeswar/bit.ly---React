@@ -1,0 +1,50 @@
+.credientials-form{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.cred__item{
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 0;
+}
+
+.cred__item label {
+    font-size: 0.9rem;
+}
+.cred__item input {
+    padding: 0.5rem 0.7rem;
+    font-size: 1.1rem;
+    margin: 0.4rem 0;
+    border: rgb(226, 226, 226) solid 1px;
+}
+
+.cred__item input:focus{
+    border: blue solid 1px;
+}
+
+.cred__item button{
+    margin: 1rem 0.5rem;
+    padding: 0.5rem;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.short-url p{
+    display: inline-block;
+    font-size: 1rem;
+    color: orangered;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+}
+
+.short-url input {
+    display: inline-block;
+    padding: 0.3rem;
+    border: rgb(226, 226, 226) solid 1px;
+    margin : 0 0.3rem;
+}

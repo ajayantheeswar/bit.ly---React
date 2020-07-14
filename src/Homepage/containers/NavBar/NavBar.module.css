@@ -18,3 +18,30 @@
     height: 100%;
 }
 
+@media (max-width : 1500px){
+    .nav-bar{
+        width: 100%;
+    }
+
+    .nav-bar__logo{
+        padding: 0;
+    }
+    
+}
+
+@media(max-width : 1040px){
+    .nav-bar{
+        justify-content: start;
+        padding: 1.2rem 1rem;
+    }
+
+    .bread-menu{
+        display: inline-block;
+    }
+}
+
+@media(max-width:700px){
+    .nav-bar{
+        padding-bottom: 0.3rem;
+    }
+}

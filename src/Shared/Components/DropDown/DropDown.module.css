@@ -1,0 +1,10 @@
+.drop-down{
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top : 100%;
+    z-index: 330;
+    padding: 1rem 0.5rem;
+}
+

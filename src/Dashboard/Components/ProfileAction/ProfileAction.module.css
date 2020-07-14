@@ -1,0 +1,56 @@
+.selector-container{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    
+    
+    background-color: #2b3e4b ;
+    border-radius:5px;
+    margin: 0 1rem;
+    padding-right: 0.5rem;
+       
+}
+
+
+.selector-actions{
+    display: flex;
+    padding: 0.5rem 0.7rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.selector-actions p{
+    color: white;
+    margin: 0 1rem;
+    margin-left: 0.3rem;
+}
+
+.selector-actions img {
+    display: inline-block;
+    width: 40px;
+    fill: white;
+    margin: 0 0.5rem;
+}
+
+@media (max-width:700px){
+    .selector-container{
+        width: auto;
+        padding: 0;
+        margin: 0rem;
+        border: white solid 1px;
+        position: static;
+    }
+    .selector-actions{
+        padding: 0;
+    }
+    .selector-actions p{
+        display: none;
+    }
+
+    .selector-actions p+img{
+        display: none;
+    }
+}

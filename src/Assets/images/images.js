@@ -22,8 +22,26 @@ import linkedin_logo from './linkedinFooterIcon.svg'
 import twitter_logo from './twitterFooterIcon.svg'
 import youtube_logo from './youtubeFooterIcon.svg'
 
+import google_cta from './google-cta.svg';
+
+import google_login from './google-login.svg';
+import twitter_login from './twitter-login.svg';
+import facebook_login from './facebook-login.svg';
+import show from './show.svg';
+
+import bitly_icon from './bitly-icon.svg';
+import down from './down.svg';
+import user_icon from './user-icon.svg';
+import menu_icon from './open-menu.svg';
+
+import level from './level.svg';
+
 export { logo ,ctaimage , arrow , Ad_1, Ad_2, Ad_3};
 
 export {Brands1,Brands2,Brands3,Brands4,Brands5,Brands6,Brands7,Brands8};
 
 export const socialIcons =[facebook_logo,instagram_logo,linkedin_logo,twitter_logo,youtube_logo];
+
+export {google_cta,show,bitly_icon,down,user_icon,menu_icon,level};
+
+export const login_icons = {google_login,twitter_login,facebook_login};

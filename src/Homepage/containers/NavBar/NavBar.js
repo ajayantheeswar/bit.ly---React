@@ -44,6 +44,7 @@ class NavBar extends React.Component {
                 </div>
                 <NavigationList navlinklist={this.state.navlinklist} />
                 <Authlinks />
+                
             </div>
             
         );

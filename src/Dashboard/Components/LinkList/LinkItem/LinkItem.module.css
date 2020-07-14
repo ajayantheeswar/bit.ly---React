@@ -1,0 +1,52 @@
+.LinkItem{
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    border-top: #828387 0.5px solid;
+}
+
+
+.link-details p {
+    padding: 0.3rem;
+    
+}
+
+.link-details p:nth-child(1){
+    color: #828387;
+    font-size: 0.9rem;
+    padding: 0.3 0.1rem;
+    font-weight: 300;
+}
+
+.link-details p:nth-child(2){
+    font-size: 1.1rem;
+}
+
+.link-details p:nth-child(3){
+    font-size: 1rem;
+    color: orangered;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+}
+
+.LinkItem.active{
+    background-color: #d0d2da;
+}
+
+.link-click{
+    align-self: flex-end;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.link-click span{
+    color: #828387;
+}
+
+.link-click img{
+    width: 20px;
+    margin: 1rem;
+    display: inline-block;
+}

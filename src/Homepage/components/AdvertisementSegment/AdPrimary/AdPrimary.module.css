@@ -110,3 +110,23 @@
     border: none;
     border-radius: 8px;
 }
+
+
+@media(max-width:700px){
+    .Ad-primary-Section-1 h1 {
+        font-size: 1.7rem;
+      }
+
+      .Ad-primary-Section-1 p {
+        font-size: 1rem;
+      }
+
+      .Ad-primary-Section-2{
+          flex-direction: column;
+          margin-top: 1rem;
+      }
+
+      .section-cta-secondary h1{
+        font-size: 1.5rem;
+      }
+}

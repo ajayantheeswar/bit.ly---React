@@ -7,6 +7,7 @@ import AdPrimary from './components/AdvertisementSegment/AdPrimary/AdPrimary';
 import Footer from './components/Footer/Footer';
 
 
+
 class Homepage extends React.Component {
   render () {
     return (
@@ -21,4 +22,6 @@ class Homepage extends React.Component {
   }
 }
 
-export default Homepage;
+
+
+export default (Homepage);

@@ -49,3 +49,47 @@
     margin-top: 10px;
     color: rgb(0, 17, 255);
 }
+
+@media (max-width:1125px){
+
+
+    .cta-head h1{
+        font-size: 1.5rem;
+    }
+    .cta-head h3{
+        font-size: 1rem;
+        
+    }
+    .cta-section{
+        width: 100%;
+        padding: 1rem;
+    }
+    .cta-head{
+        padding: 1rem;
+    }
+}
+
+@media (max-width:700px){
+    .cta-section{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 0.5rem;
+        padding: 0.5rem;
+        
+    }
+
+    .cta-head{
+        width: 100%;
+        align-items: center;
+        
+    }
+
+    .cta-head h3{
+        text-align: center;
+    }
+
+    .cta-image{
+        width: 400px;
+    }
+}

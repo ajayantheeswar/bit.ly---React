@@ -6,8 +6,8 @@ import NavigationItem from '../NavigationList/NavigationItem/NavigationItem';
 
 const Authlinks = props => (
     <div className={classes['AuthLink']}>
-        <a className={classes['Link']} href='#'>Sign Up</a>
-        <a className={classes['Link']} href='#'>Login</a>
+        <NavLink className={classes['Link']} to='/signup'>Sign Up</NavLink>
+        <NavLink className={classes['Link']} to='/signin'>Sign In</NavLink>
         <a className={classes['Link-cta']} href='#'>Get Quote</a>
     </div>
 );

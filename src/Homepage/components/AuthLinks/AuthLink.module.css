@@ -18,3 +18,15 @@
     padding: 0.5rem 1rem;
     margin-left: 2rem;
 }
+
+@media(max-width : 1140px){
+    .AuthLink {
+        padding: 0;
+    }
+}
+
+@media(max-width : 1040px){
+    .AuthLink{
+        display: none;
+    }
+}
