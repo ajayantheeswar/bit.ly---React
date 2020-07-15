@@ -121,7 +121,7 @@ class Dashboard extends Component {
                         </SideDisplay> 
                      : null}
                     {this.props.mobileViewVisible ? 
-                        <SideDisplay onSideToggle={() => this.props.closeDetailsMenu()}> 
+                        <SideDisplay className={classes['details-mobile-sidepanel-content']} onSideToggle={() => this.props.closeDetailsMenu()}> 
                             {this.props.links ? <LinkDetails link={this.props.links[this.props.selected]} />
                             : <p>Please , Select Links</p> }                
                         </SideDisplay> : null

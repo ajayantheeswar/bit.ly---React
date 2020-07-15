@@ -3,8 +3,10 @@ import classes from './SideDisplay.module.css';
 
 
 const SideContainer = props => {
+
+   const containerClass = props.className ? classes['side-container'] + ' ' + props.className : classes['side-container']
    return (
-       <div className={classes['side-container']}>
+       <div className={containerClass}>
            <div className={classes['backdrop']}></div>
            <div className={classes['action-container']} >
                 <div className={classes['action-container__Header']}>
