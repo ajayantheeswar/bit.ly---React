@@ -101,17 +101,12 @@ class Dashboard extends Component {
 
     render () {
 
-        const MainDisplay_style = {
-            width : '70%',
-            padding : '2rem'
-        }
-
         return (
             <div style={{position:'relative'}}>
                 <NavBar logOut={this.props.logOut} onSideToggle={() => this.props.setBackdrop(true)} />
                 <div className={classes['main-section']}>
                     <LinkList links={this.props.links} onSelect={this.onSelectIndex}/>
-                    <MainDisplay style={MainDisplay_style}>
+                    <MainDisplay className={classes['MainDisplay-details-content']}>
                         {this.props.links ? <LinkDetails link={this.props.links[this.props.selected]} />
                             : <p>Please , Select Links</p> }
                     </MainDisplay>
@@ -125,6 +120,12 @@ class Dashboard extends Component {
                             onBlurOfUrl={this.onBlurOfUrl} />
                         </SideDisplay> 
                      : null}
+                    {this.props.mobileViewVisible ? 
+                        <SideDisplay onSideToggle={() => this.props.closeDetailsMenu()}> 
+                            {this.props.links ? <LinkDetails link={this.props.links[this.props.selected]} />
+                            : <p>Please , Select Links</p> }                
+                        </SideDisplay> : null
+                    }
                 </div>
                 
             </div>
@@ -142,15 +143,17 @@ const mapPropsToDispatch = dispatch => {
         getAllLinks : () => dispatch(DashboardActionTypes.fetchAllLinksAsync()),
         selectIndex : (index) => dispatch(DashboardActionTypes.selectIndex(index)),
         createLink : (LinkData) => dispatch(DashboardActionTypes.createLinkStartAsync(LinkData)),
-        setBackdrop : (value) => dispatch(DashboardActionTypes.setBackDrop(value))
-     }
+        setBackdrop : (value) => dispatch(DashboardActionTypes.setBackDrop(value)),
+        closeDetailsMenu : () => dispatch(DashboardActionTypes.closeDetailsMobile())
+     } 
 }
 
 const mapPropsToState = state => {
     return {
         links : state.dashboard.links.links,
         selected : state.dashboard.links.selected,
-        create : state.dashboard.create
+        create : state.dashboard.create,
+        mobileViewVisible : state.dashboard.links.detailsVisible
     }
 }
 

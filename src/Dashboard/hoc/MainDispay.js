@@ -2,7 +2,7 @@ import React from 'react';
 
 const MainDisplay = props => {
     return (
-        <div style={props.style}>
+        <div className={props.className}>
             {props.children}
         </div>
     )

@@ -4,3 +4,13 @@
     display:flex;
 }
 
+.MainDisplay-details-content {
+    width : 70%;
+    padding : 2rem;
+}
+
+@media(max-width : 700px){
+    .MainDisplay-details-content {
+        display: none;
+    }
+}

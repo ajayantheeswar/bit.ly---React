@@ -33,10 +33,11 @@ import bitly_icon from './bitly-icon.svg';
 import down from './down.svg';
 import user_icon from './user-icon.svg';
 import menu_icon from './open-menu.svg';
+import menu_icon_black from './open-menu-black.svg';
 
 import level from './level.svg';
 
-export { logo ,ctaimage , arrow , Ad_1, Ad_2, Ad_3};
+export {menu_icon_black,logo ,ctaimage , arrow , Ad_1, Ad_2, Ad_3};
 
 export {Brands1,Brands2,Brands3,Brands4,Brands5,Brands6,Brands7,Brands8};
 

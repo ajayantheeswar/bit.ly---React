@@ -24,3 +24,7 @@ export const CREATE_LINK_FAIL = 'CREATE_LINK_FAIL';
 // Set Backdrop
 
 export const SET_CREATE_BACKDROP = 'SET_CREATE_BACKDROP';
+
+// Close Details Mobile
+
+export const CLOSE_DETAILS_MOBILE = 'CLOSE_DETAILS_MOBILE';

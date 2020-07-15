@@ -6,7 +6,8 @@ const initialState = {
         length : 0,
         selected : -1,
         loading : false,
-        error: null
+        error: null,
+        detailsVisible : false
     },
     create : {
         loading: false,
@@ -54,7 +55,8 @@ const reducer = (state=initialState, action) => {
                 ...state,
                 links :{
                     ...state.links,
-                    selected : action.selected
+                    selected : action.selected,
+                    detailsVisible : true
                 }
             }
         
@@ -96,6 +98,16 @@ const reducer = (state=initialState, action) => {
                 create :{
                     ...state.create,
                     backDrop : action.value
+                }
+            }
+        }
+
+        case ActionTypes.CLOSE_DETAILS_MOBILE : {
+            return {
+                ...state,
+                links :{
+                    ...state.links,
+                    detailsVisible : false
                 }
             }
         }

@@ -96,3 +96,9 @@ export const setBackDrop = (value) => {
         value : value
     }
 }
+
+export const closeDetailsMobile = () => {
+    return {
+        type : actionTypes.CLOSE_DETAILS_MOBILE
+    }
+} 

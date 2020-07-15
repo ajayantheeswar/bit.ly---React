@@ -6,6 +6,7 @@
     margin: auto;
     align-items: center;
     justify-content: space-evenly;
+    z-index : 20;
 }
 
 .nav-bar__logo{
@@ -16,6 +17,10 @@
 
 .nav-bar img{
     height: 100%;
+}
+
+.ham-menu{
+    display: none;
 }
 
 @media (max-width : 1500px){
@@ -31,11 +36,15 @@
 
 @media(max-width : 1040px){
     .nav-bar{
-        justify-content: start;
+        justify-content: space-between;
         padding: 1.2rem 1rem;
     }
 
     .bread-menu{
+        display: inline-block;
+    }
+
+    .ham-menu{
         display: inline-block;
     }
 }
